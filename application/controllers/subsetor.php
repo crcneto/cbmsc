@@ -106,6 +106,9 @@ class Subsetor extends CI_Controller {
 
     //delete OBM
     public function delete() {
+        
+        //Autenticação
+        $this->auth->checkAuth('subsetor');
 
         try {
             
