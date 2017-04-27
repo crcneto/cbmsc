@@ -1,0 +1,2 @@
+<?php redirect('e404'); ?>
+
